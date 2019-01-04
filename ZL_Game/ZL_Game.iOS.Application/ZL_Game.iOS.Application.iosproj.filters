@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ZL_Game.iOS">
+      <UniqueIdentifier>{f4bfc3f3-6e0a-4c72-a2a1-c7c889fa9209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZL_Game.iOS\Images.xcassets">
+      <UniqueIdentifier>{0ab80f6c-fb34-4548-b094-ed0f10e05c5f}</UniqueIdentifier>
+      <Extensions>ZL_Game.iOS\Images.xcassets\*</Extensions>
+    </Filter>
+    <Filter Include="ZL_Game.iOS\Images.xcassets\AppIcon.appiconset">
+      <UniqueIdentifier>{ce045cd4-1a58-4a03-bb22-766fbb5ad616}</UniqueIdentifier>
+      <Extensions>ZL_Game.iOS\Images.xcassets\AppIcon.appiconset\*</Extensions>
+    </Filter>
+    <Filter Include="ZL_Game.iOS\Supporting Files">
+      <UniqueIdentifier>{566a5747-ed75-4c59-8096-0578305baefa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ZL_Game.iOS\AppDelegate.m">
+      <Filter>ZL_Game.iOS</Filter>
+    </ClCompile>
+    <ClCompile Include="ZL_Game.iOS\GameViewController.m">
+      <Filter>ZL_Game.iOS</Filter>
+    </ClCompile>
+    <ClCompile Include="ZL_Game.iOS\main.m">
+      <Filter>ZL_Game.iOS\Supporting Files</Filter>
+    </ClCompile>
+    <ClInclude Include="ZL_Game.iOS\AppDelegate.h">
+      <Filter>ZL_Game.iOS</Filter>
+    </ClInclude>
+    <ClInclude Include="ZL_Game.iOS\GameViewController.h">
+      <Filter>ZL_Game.iOS</Filter>
+    </ClInclude>
+    <Content Include="ZL_Game.iOS\Base.lproj\Main.storyboard">
+      <Filter>ZL_Game.iOS</Filter>
+    </Content>
+    <Content Include="ZL_Game.iOS\Images.xcassets\AppIcon.appiconset\Contents.json">
+      <Filter>ZL_Game.iOS\Images.xcassets\AppIcon.appiconset</Filter>
+    </Content>
+    <InfoPlist Include="ZL_Game.iOS\Info.plist">
+      <Filter>ZL_Game.iOS\Supporting Files</Filter>
+    </InfoPlist>
+  </ItemGroup>
+</Project>
