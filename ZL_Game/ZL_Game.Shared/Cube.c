@@ -41,7 +41,7 @@ void Cube_setupGL(double width, double height)
     // Initialize GL state.
     glDisable(GL_DITHER);
     glHint(GL_PERSPECTIVE_CORRECTION_HINT, GL_FASTEST);
-    glClearColor(1.0f, 0.41f, 0.71f, 1.0f);
+    glClearColor(1.0f, 0.4f, 0.7f, 1.0f);
     glEnable(GL_CULL_FACE);
     glShadeModel(GL_SMOOTH);
     glEnable(GL_DEPTH_TEST);
@@ -59,7 +59,7 @@ void Cube_tearDownGL()
 
 void Cube_update()
 {
-    _rotation += 1.f;
+    _rotation += 1.2f;
 
 }
 void Cube_prepare()
